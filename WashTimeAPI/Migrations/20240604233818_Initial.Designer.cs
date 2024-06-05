@@ -13,7 +13,7 @@ namespace WashTimeAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
     [Migration("20240604233818_init")]
-    partial class init
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
